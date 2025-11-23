@@ -3,9 +3,10 @@
     margin: 0;
     font-family: 'Itim', cursive;
 }
+
 .background{
     background-color: aquamarine;
-    height: 100vh;
+    height: max-content;
     width: 100vw;
     padding-top: 1px;
 }
@@ -33,7 +34,7 @@
     max-width: 300px;
 }
 .tile{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     min-width: 100px;
     min-height: 100px;
     display: flex;
